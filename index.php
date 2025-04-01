@@ -8,6 +8,7 @@
 <body>
     <h1>Fugina Dušan</h1>
     <?php
+        // DB config.
         require_once 'db_config.php';
 
         $conn = new mysqli($servername, $username, $password, $database);
